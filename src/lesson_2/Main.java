@@ -1,8 +1,8 @@
-package lesson_two;
+package lesson_2;
 
 public class Main {
     public static void main(String[] args) {
-        MyArr arr = new MyArr(3);
+        MyArray arr = new MyArray(3);
         arr.display();
         System.out.println("----------");
         arr.insert(2,1);
